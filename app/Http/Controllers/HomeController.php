@@ -33,10 +33,12 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		if ($this->loggedInAvailableUser()) {
-			flash()->error('No available free user slots');
-		} else {
-			flash()->success('Logged you in successfully - happy testing!');
+		if ( ! Auth::check())
+			if ($this->loggedInAvailableUser()) {
+				flash()->success('Logged you in successfully - happy testing!');
+			} else {
+				flash()->error('No available free user slots');
+			}
 		}
 		return view('home');
 	}
