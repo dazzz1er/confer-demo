@@ -13,7 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+Route::get('demo', 'HomeController@index');
 
 Route::post('userleft', 'HomeController@userloggedout');
 
