@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "djb/confer-demo",
+	"description": "A demo to show the laravel 5 confer package.",
+	"keywords": ["package", "demo", "laravel"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
