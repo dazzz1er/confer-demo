@@ -33,7 +33,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		if ( ! Auth::check())
+		if ( ! Auth::check()) {
 			if ($this->loggedInAvailableUser()) {
 				flash()->success('Logged you in successfully - happy testing!');
 			} else {
