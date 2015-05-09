@@ -63,6 +63,7 @@ class HomeController extends Controller {
 	public function logout()
 	{
 		Auth::logout();
+		Session::forget('confer_conversations');
 		return redirect('/');
 	}
 
