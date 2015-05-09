@@ -2,6 +2,7 @@
 
 use DJB\Confer\Confer;
 use Auth;
+use Session;
 
 class HomeController extends Controller {
 
