@@ -46,7 +46,7 @@ class HomeController extends Controller {
 	private function loggedInAvailableUser()
 	{
 		$users = (new Confer)->getUsersState();
-		if ($users['online']->count() < 20)
+		if ($users['online']->count() < 19)
 		{
 			$this->logInFirstAvailableUser($users['offline']);
 			return true;
