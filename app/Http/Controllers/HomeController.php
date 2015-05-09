@@ -60,6 +60,12 @@ class HomeController extends Controller {
 		Auth::login($offline_users->first());
 	}
 
+	public function logout()
+	{
+		Auth::logout();
+		return redirect('/');
+	}
+
 	public function userloggedout(Request $request)
 	{
 		// needs to respond with a 200

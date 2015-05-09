@@ -15,6 +15,8 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('demo', 'HomeController@index');
 
+Route::get('/logout', 'HomeController@logout');
+
 Route::post('userleft', 'HomeController@userloggedout');
 
 /*Route::controllers([
