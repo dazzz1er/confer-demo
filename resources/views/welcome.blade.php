@@ -41,7 +41,7 @@
 		<div class="container">
 			<div class="content">
 				<div class="title">Confer demo</div>
-				<div class="quote">The demo is limited to 20 concurrent users. If there is a slot free, you will be allocated one automatically for trial. <a href="/demo">Continue</a></div>
+				<div class="quote">The demo is limited to 20 concurrent users. If there is a slot free, you will be allocated one automatically for testing. <a href="/demo">Continue</a></div>
 			</div>
 		</div>
 	</body>
