@@ -17,7 +17,7 @@ Route::get('demo', 'HomeController@index');
 
 Route::post('userleft', 'HomeController@userloggedout');
 
-Route::controllers([
+/*Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-]);
+]);*/
