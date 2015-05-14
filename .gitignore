@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+.env
+
+forge
+
+forge.pub
+
+.env.example
+
+.gitattributes
