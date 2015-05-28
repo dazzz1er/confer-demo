@@ -9,6 +9,7 @@
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	<link href="/vendor/confer/css/confer.css" rel="stylesheet">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/emojione/1.4.0/assets/css/emojione.min.css"/>
 
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -80,6 +81,7 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script src="/js/pusher.min.js"></script>
 	<script src="/js/moment.min.js"></script>
+	<script src="//cdn.jsdelivr.net/emojione/1.4.0/lib/js/emojione.min.js"></script>
 	@include('confer::js')
 
 	<script>
